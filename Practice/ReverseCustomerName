@@ -1,0 +1,14 @@
+public class ReverseCustomerName {
+
+    static String reverseCustomerName(String customerName) {
+        StringBuilder reversed = new StringBuilder(customerName);
+        return reversed.reverse().toString();
+    }
+
+    public static void main(String[] args) {
+        String customerName = "Sunil";
+
+        System.out.println("Original Name: " + customerName);
+        System.out.println("Reversed Name: " + reverseCustomerName(customerName));
+    }
+}
